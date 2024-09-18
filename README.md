@@ -31,8 +31,8 @@ For easy testing, we implement our demo using MATLAB, which can be run with no e
 
 ## Running options
 
-If you use our dataset xxx or have created your own constraint maps, leave `pose_flag` as true. In this case, you are using the implementation of our RA-L paper, where the intrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to false. In this case, the implementation is the one in our paper IPCAI.
-Note that in both case the instrument masks are necessary in the case of occlusion. If the instrument does not cause occlusion or you do not want to use instrument masks, set mask_flag to false.
+If you use our dataset xxx or have created your own constraint maps, leave `pose_flag` as `true`. In this case, you are using the implementation of our RA-L paper, where the intrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to `false`. In this case, the implementation is the one in our IPCAI paper.
+Note that in both case the instrument masks are necessary in the case of occlusion. If the instrument does not cause occlusion or you do not want to use instrument masks, set `mask_flag` to `false`.
 
 ## Run
 
