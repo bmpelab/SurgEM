@@ -45,7 +45,7 @@ We provide a tiny but useful ex vivo dataset for the reconstruction accuracy eva
 If you use our ex vivo dataset or find this work helpful, please cite our paper:
 
 ```
-@InProceedings{chen_surgem_2024,
+@article{chen_surgem_2024,
  author = {Chen, Jiahe and Kobayashi, Etsuko and Sakuma, Ichiro and Tomii, Naoki},
  title = {{SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin towards Autonomous Soft Tissue Manipulation}},
  journal={Robotics and Automation Letter},
