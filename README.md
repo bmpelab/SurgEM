@@ -5,6 +5,7 @@ This repository contains the implementations for our RA-L paper **[SurgEM: A Vis
 ## Overview
 
 Surgery environment modeling (SurgEM) framework is for fast and easy combination of modules for general research in computer assisted intervention (CAI). Now the major usage of SurgEM is to model the tool-tissue interaction during soft tissue manipulation, involving the deformation of the soft tissue (geometry, texture, engineering surface strain), the pose of the instrument (geometry, position, orientation), and tool-tissue distance.
+
 We implement the ROS system to enable the communication among modules. The information flow of the SurgEM system is as follows:
 
 
