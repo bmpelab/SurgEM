@@ -8,7 +8,7 @@ Surgery environment modeling (SurgEM) framework is for fast and easy combination
 
 We implement the ROS system to enable the communication among modules. The information flow of the SurgEM system is as follows:
 
-
+![Picture1](https://github.com/user-attachments/assets/e41ac5fb-fe5c-4097-a92f-a9ada472bf5d)
 
 However, since the whole system is heavy and the system setting process could be very different depending on the exact hardware in use, we currently do not release those tedious and platform-dependent instructions (which are those in the red bounding box). Instead, we start from the green bounding box, assuming that the information from the previous steps are available. For those steps in the grey bounding box, please refer to the links below:
 1. Stereo rectification: [OpenCV_stereoRectify](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga617b1685d4059c6040827800e72ad2b6)
