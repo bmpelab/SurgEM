@@ -29,6 +29,8 @@ We provide a tiny but useful ex vivo dataset for the reconstruction accuracy eva
         ├── rectified_left
         ├── rectified_right
         ├── evaluation
+        ├── 0.stl (the initial mesh)
+        ├── rectifiedCamera.mat (camera parameter)
     ├── g2
         ├── constraint_map
         ├── point_3d_map
@@ -37,6 +39,8 @@ We provide a tiny but useful ex vivo dataset for the reconstruction accuracy eva
         ├── rectified_left
         ├── rectified_right
         ├── evaluation
+        ├── 0.stl (the initial mesh)
+        ├── rectifiedCamera.mat (camera parameter)
 ```
 
 
@@ -49,7 +53,9 @@ Note that in both case the instrument masks are necessary in the case of occlusi
 
 ## Run
 
-For easy testing, we implement our demo using MATLAB, which can be run with no effort in environment setting. First clone or download this repository. Then, run main.m in MATLAB. New folders (mesh) containing the results will be created under the same folder of the dataset.
+For easy testing, we implement our demo using MATLAB, which can be run with no effort in environment setting. First clone or download this repository. Then, open `main.m` in MATLAB, adjust the `data_folder` to the one of the dataset. 
+
+After that, run the code. New folders (`mesh`) containing the results will be created under the same folder of the dataset.
 
 ## Evaluation
 
@@ -60,12 +66,12 @@ We provide a tiny but useful ex vivo dataset for the reconstruction accuracy eva
 If you use our ex vivo dataset or find this work helpful, please cite our paper:
 
 ```
-@article{chen_surgem_2024,
- author = {Chen, Jiahe and Kobayashi, Etsuko and Sakuma, Ichiro and Tomii, Naoki},
- title = {{SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin towards Autonomous Soft Tissue Manipulation}},
- journal={Robotics and Automation Letter},
- pages = {xxx--xxx},
- year = {2024},
+@article{chen2024surgem,
+  title={SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin towards Autonomous Soft Tissue Manipulation},
+  author={Chen, Jiahe and Kobayashi, Etsuko and Sakuma, Ichiro and Tomii, Naoki},
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
