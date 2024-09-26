@@ -6,6 +6,12 @@ This repository contains the implementations for our RA-L paper **[SurgEM: A Vis
 
 Surgery environment modeling (SurgEM) framework is for fast and easy combination of modules for general research in computer assisted intervention (CAI). Now the major usage of SurgEM is to model the tool-tissue interaction during soft tissue manipulation, involving the deformation of the soft tissue (geometry, texture, engineering surface strain), the pose of the instrument (geometry, position, orientation), and tool-tissue distance.
 
+
+
+https://github.com/user-attachments/assets/5ea78d38-11a3-4a56-b3b2-250e82ea0da2
+
+
+
 We implement the ROS system to enable the communication among modules. The information flow of the SurgEM system is as follows:
 
 ![Picture1](https://github.com/user-attachments/assets/e41ac5fb-fe5c-4097-a92f-a9ada472bf5d)
