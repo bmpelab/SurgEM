@@ -3,7 +3,7 @@ mask_flag = true;
 pose_flag = true;
 % batch processing using mesh-based outlier detector real data
 addpath(genpath('./source'));
-data_folder = 'G:/chen/Documents/DataManagement/Data/g1';
+data_folder = './surgem_ex_vivo/g1';
 if mask_flag
 mask_folder = [data_folder '/mask'];
 end
