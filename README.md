@@ -1,6 +1,6 @@
 # SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin
 
-This repository contains the implementations for our RA-L paper **[SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin towards Autonomous Soft Tissue Manipulation](https://)** (**Best Poster Award** in related [ICRA 2024 2nd RAMI workshop](https://sites.google.com/view/rami-icra-2024-workshop/home?pli=1)) and IPCAI 2023 paper **[Occlusion-robust scene flow-based tissue deformation recovery incorporating a mesh optimization model](https://doi.org/10.1007/s11548-023-02889-z)** (**CAI Award Runner-up**) by [Jiahe Chen](http://), Etsuko Kobayashi, Ichiro Sakuma, and Naoki Tomii.
+This repository contains the implementations for our RA-L (open access) paper **[SurgEM: A Vision-based Surgery Environment Modeling Framework for Constructing a Digital Twin towards Autonomous Soft Tissue Manipulation](https://ieeexplore-ieee-org.utokyo.idm.oclc.org/abstract/document/10685073)** (**Best Poster Award** in related [ICRA 2024 2nd RAMI workshop](https://sites.google.com/view/rami-icra-2024-workshop/home?pli=1)) and IPCAI 2023 paper **[Occlusion-robust scene flow-based tissue deformation recovery incorporating a mesh optimization model](https://doi.org/10.1007/s11548-023-02889-z)** (**CAI Award Runner-up**) by [Jiahe Chen](http://), Etsuko Kobayashi, Ichiro Sakuma, and Naoki Tomii.
 
 ## Overview
 
