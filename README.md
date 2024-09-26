@@ -65,7 +65,7 @@ After that, run the code. New folders (`mesh`) containing the results will be cr
 
 ## Evaluation
 
-We provide a tiny but useful ex vivo dataset for the reconstruction accuracy evaluation in both the non-occluded and occluded areas. For details about the evaluation, please check the dataset.
+We provide a tiny but useful ex vivo dataset for the reconstruction accuracy evaluation in both the non-occluded and occluded areas. We compare the recovered surface with the reference surface (the scanned one) for evaluating the recovery accuracy in terms of surface distance (defined in [J. Chen, et al., IJCARS, 2023](https://doi.org/10.1007/s11548-023-02889-z)). For details about the evaluation, please check the dataset.
 
 ## Citation
 
