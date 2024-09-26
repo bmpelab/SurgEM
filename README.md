@@ -10,7 +10,7 @@ We implement the ROS system to enable the communication among modules. The infor
 
 
 
-However, since the whole system is heavy and the system setting process could be very different depending on the exact hardware in use, we currently do not release those tedious and platform-dependent instructions (which are those in the red bounding box). Instead, we start from the green bounding box, assuming that the information from the previous steps are available. For those steps in the grey bounding box, please refer to the links below:
+However, since the whole system is heavy and the system setting process could be very different depending on the exact hardware in use, we currently do not release everything, especially those tedious and platform-dependent instructions (with read bounding box). Instead, we start from the green bounding box, assuming that the information from the previous steps are available. For those steps in the grey bounding box, please refer to the links below:
 1. Stereo rectification: [OpenCV_stereoRectify](https://docs.opencv.org/4.x/d9/d0c/group__calib3d.html#ga617b1685d4059c6040827800e72ad2b6)
 2. 3D reconstruction: [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo.git)
 3. 2D tracking: [LiteFlowNet3](https://github.com/twhui/LiteFlowNet3.git)
@@ -94,8 +94,6 @@ If you choose to use our implementation with `pose_flag == false`, please cite t
 
 Thanks for the efforts of all authors of the following projects/codes.
 
-1. readflow code
-2. natsort
-3. RAFT-Stereo
-4. LiteFlowNet3
-5. readpy
+1. [natsort](https://www.mathworks.com/matlabcentral/fileexchange/10959-sort_nat-natural-order-sort)
+2. [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo.git)
+3. [LiteFlowNet3](https://github.com/twhui/LiteFlowNet3.git)
