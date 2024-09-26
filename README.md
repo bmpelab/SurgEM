@@ -17,7 +17,34 @@ However, since the whole system is heavy and the system setting process could be
 
 ## Dataset preparation
 
-We provide a tiny but useful ex vivo dataset for the reconstruction accuracy evaluation in both the non-occluded and occluded areas. For the details about how we acquire the dataset, please check our RA-L paper. You can download our well-prepared dataset from xxx. This dataset includes:
+We provide a tiny but useful ex vivo dataset for the reconstruction accuracy evaluation in both the non-occluded and occluded areas. For the details about how we acquire the dataset, please check our RA-L paper. You can download our well-prepared dataset from [here](https://drive.google.com/drive/folders/1TZbrjPlJ6zwMm2HGsjIHRQuQyMRHEEcb?usp=sharing). This dataset includes:
+
+```
+├── datasets
+    ├── FlyingThings3D
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── Monkaa
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── Driving
+        ├── frames_cleanpass
+        ├── frames_finalpass
+        ├── disparity
+    ├── KITTI
+        ├── testing
+        ├── training
+        ├── devkit
+    ├── Middlebury
+        ├── MiddEval3
+    ├── ETH3D
+        ├── two_view_testing
+```
+
+
+
 1. point 3d maps
 2. optical flow maps
 3. instrument poses (optional)
@@ -31,7 +58,7 @@ For easy testing, we implement our demo using MATLAB, which can be run with no e
 
 ## Running options
 
-If you use our dataset xxx or have created your own constraint maps, leave `pose_flag` as `true`. In this case, you are using the implementation of our RA-L paper, where the intrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to `false`. In this case, the implementation is the one in our IPCAI paper.
+If you use our dataset or have created your own constraint maps, leave `pose_flag` as `true`. In this case, you are using the implementation of our RA-L paper, where the intrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to `false`. In this case, the implementation is the one in our IPCAI paper.
 Note that in both case the instrument masks are necessary in the case of occlusion. If the instrument does not cause occlusion or you do not want to use instrument masks, set `mask_flag` to `false`.
 
 ## Run
