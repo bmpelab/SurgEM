@@ -52,16 +52,16 @@ We provide a tiny but useful ex vivo dataset for the reconstruction accuracy eva
 
 If you would like to prepare your own dataset, please refer to the above structure.
 
-## Running options
-
-If you use our dataset or have created your own constraint maps, leave `pose_flag` as `true`. In this case, you are using the implementation of our RA-L paper, where the instrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to `false`. In this case, the implementation is the one in our IPCAI paper.
-Note that in both case the instrument masks are necessary in the case of occlusion. If the instrument does not cause occlusion or you do not want to use instrument masks, set `mask_flag` to `false`.
-
 ## Run
 
 For easy testing, we implement our demo using MATLAB, which can be run with no effort in environment setting. First clone or download this repository. Then, open `main.m` in MATLAB, adjust the `data_folder` to the one of the dataset. 
 
 After that, run the code. New folders (`mesh`) containing the results will be created under the same folder of the dataset.
+
+### Running options
+
+If you use our dataset or have created your own constraint maps, leave `pose_flag` as `true`. In this case, you are using the implementation of our RA-L paper, where the instrument pose information is used for optimization. If you do not use or the pose information is unavailable in your application, please change the `pose_flag` to `false`. In this case, the implementation is the one in our IPCAI paper.
+Note that in both case the instrument masks are necessary in the case of occlusion. If the instrument does not cause occlusion or you do not want to use instrument masks, set `mask_flag` to `false`.
 
 ## Evaluation
 
